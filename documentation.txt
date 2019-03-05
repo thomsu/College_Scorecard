@@ -1,19 +1,19 @@
-undergrad seeking degrees		size				UGDS
-part-time share					part_time_share		PPTUG_EF
-avg attendance cost				attendance.academic_year	COSTT4_A
-% pell grant					pell_grant_rate		PCTPELL
-Completion rates				completion_rate_4yr_150nt		C150_4
-								completion_rate_less_than_4yr_150nt	C150_L4
-Retentation rates				retention_rate.four_year.full_time	RET_FT4	
-								retention_rate.lt_four_year.full_time	RET_FTL4
-								retention_rate.four_year.part_time	RET_PT4
-								retention_rate.lt_four_year.part_time	RET_PTL4
-% receiving fed student loan	federal_loan_rate	PCTFLOAN
-Age 25+							share_25_older	UG25ABV
-2-year default rate 			2_yr_default_rate	CDR2
-3-year default rate 			3_yr_default_rate	CDR3
-% 1st gen students 				share_firstgeneration 	PAR_ED_PCT_1STGEN
-parents middle school		share_firstgeneration_parents.middleschool PAR_ED_PCT_MS
-parents high school			share_firstgeneration_parents.highschool PAR_ED_PCT_HS
-parents post-secondary		share_firstgeneration_parents.somecollege PAR_ED_PCT_PS
+undergrad seeking degrees		student.size				UGDS
+part-time share				student.part_time_share		PPTUG_EF
+avg attendance cost			cost.attendance.academic_year	COSTT4_A
+% pell grant				aid.pell_grant_rate		PCTPELL
+Completion rates			completion.completion_rate_4yr_150nt		C150_4
+					completion.completion_rate_less_than_4yr_150nt	C150_L4
+Retentation rates			student.retention_rate.four_year.full_time	RET_FT4	
+								student.retention_rate.lt_four_year.full_time	RET_FTL4
+								student.retention_rate.four_year.part_time	RET_PT4
+								student.retention_rate.lt_four_year.part_time	RET_PTL4
+% receiving fed student loan	aid.federal_loan_rate	PCTFLOAN
+Age 25+							student.share_25_older	UG25ABV
+2-year default rate 			repayment.2_yr_default_rate	CDR2
+3-year default rate 			repayment.3_yr_default_rate	CDR3
+% 1st gen students 				student.share_firstgeneration 	PAR_ED_PCT_1STGEN
+parents middle school		student.share_firstgeneration_parents.middleschool PAR_ED_PCT_MS
+parents high school			student.share_firstgeneration_parents.highschool PAR_ED_PCT_HS
+parents post-secondary		student.share_firstgeneration_parents.somecollege PAR_ED_PCT_PS
 median household income		demographics.median_hh_income	MEDIAN_HH_INC
