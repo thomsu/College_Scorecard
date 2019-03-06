@@ -6,13 +6,17 @@ cost - 130 missing (replace with median?)
 pell_grant_rate - 7 missing
 federal_loan_rate - 7 missing
 completion rate - 170 missing
+->
 full_retention - 179 missing
-part_retention - 866 (dropping column)
+	part_retention - 866 (dropping column)
 share_older - 21 missing
 2_default - 152 missing
 3_default - 118 missing
 1st_gen - 205 missing
-middleschool - 642 missing (drop)
-highschool - 642 missing (drop)
-somecollege - 205 missing (drop)
+	middleschool - 642 missing (drop)
+	highschool - 642 missing (drop)
+	somecollege - 205 missing (drop)
 median_income - 250 missing
+
+dropped all rows with more than 3 missing values
+replaced remaining missing values with column medians
